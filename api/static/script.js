@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            if (isNaN(amount) || amount <= 0) {
+            if (isNaN(amount) || amount === 0) {
                 event.preventDefault();
-                alert('O valor do gasto deve ser maior que 0.');
+                alert('O valor deve ser diferente de 0. Use negativo para subtrair.');
                 return;
             }
 
