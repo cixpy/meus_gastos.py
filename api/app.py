@@ -109,7 +109,7 @@ def email():
         f"{expenses_text}\n\n"
         f"Total: R${total:.2f}\n\n"
         "Atenciosamente,\n"
-        "DevCix - Relatório de Gastos"
+        "Cix"
     )
 
     html_body = f"""
@@ -143,7 +143,7 @@ def email():
     login = os.getenv("LOGIN")
     password = os.getenv("PASSWORD")
     from_email = formataddr(("DevCix - Relatório de Gastos", login))
-    subject = "Relatório de Gastos"
+    subject = "DevCix | Relatório de Gastos"
 
     send_email(
         subject,
