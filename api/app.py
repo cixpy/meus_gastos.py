@@ -134,7 +134,7 @@ def email():
           </tr>
         </tfoot>
       </table>
-      <p style="margin-top:16px">Atenciosamente,<br><strong>DevCix - Relatório de Gastos</strong></p>
+      <p style="margin-top:16px">Atenciosamente,<br><strong>Cix 😊</strong></p>
     </div>
     """
 
